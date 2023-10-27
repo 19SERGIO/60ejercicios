@@ -3,8 +3,8 @@
 
 """
 num=1
-anterior=0
+suma=0
 while num<=100:
-    print(num,"+", anterior,"=", num+anterior)
-    anterior=num
+    suma = suma + num
     num=num+1
+print (suma)

@@ -3,6 +3,5 @@
 """
 anterior=0
 for i in range (1, 101, 1):
-    
-    print (i,"+", anterior,"= ",i+anterior)
-    anterior=i
+    anterior=i+anterior
+print (anterior)
